@@ -3,7 +3,7 @@ BIN=bin
 EXE=influxdb-collectd-proxy
 
 GOCOLLECTD=github.com/paulhammond/gocollectd
-INFLUXDBGO=github.com/influxdb/influxdb/client
+INFLUXDBGO=github.com/influxdb/influxdb/client v0.8.8
 
 all: get build
 
